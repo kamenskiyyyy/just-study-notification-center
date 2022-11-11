@@ -30,6 +30,7 @@ jobs:
           function-name: notification-center
           runtime: nodejs16
           memory: 256Mb
+          execution-timeout: 20
           entrypoint: dist/index.handler
           environment: |
             MAIL_HOST=${{ secrets.MAIL_HOST }}
@@ -41,3 +42,5 @@ jobs:
             package.json
           exclude: |
             **/*.ts
+          tags: |
+            ${{ GITHUB_SHA::6 }}
