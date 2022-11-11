@@ -4,9 +4,10 @@ import {templateLesson} from "./templateLesson";
 
 export const getHTML = (template: SendMessageProps['template']) => {
     switch (template) {
-        case "base":
-            return baseTemplateEmail
         case "lesson":
             return templateLesson
+        case "base":
+        default:
+            return baseTemplateEmail
     }
 }

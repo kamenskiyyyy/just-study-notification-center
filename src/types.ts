@@ -4,9 +4,9 @@ export interface SendMessageProps {
     email: string[] | string;
     body: string;
     title: string;
-    type: 'email';
-    template: "base" | "lesson"
-    link: string
+    type?: 'email';
+    template?: 'base' | 'lesson';
+    link?: string;
 }
 
 export interface Event {
