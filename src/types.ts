@@ -1,5 +1,3 @@
-import {StringValue} from "aws-sdk/clients/elbv2";
-
 export interface SendMessageProps {
     email: string[] | string;
     body: string;
@@ -27,8 +25,8 @@ export interface Event {
                 },
                 message_attributes: {
                     messageAttributeKey: {
-                        dataType: StringValue,
-                        stringValue: StringValue
+                        dataType: string,
+                        stringValue: string
                     }
                 },
                 md5_of_message_attributes: string
