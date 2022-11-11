@@ -1,6 +1,6 @@
 {
   "name": "just-study-notification-center",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "main": "index.js",
   "scripts": {
     "test": "AWS_ACCESS_KEY_ID=YCAJEtgELMn1y8UxCmk_d03Ou AWS_SECRET_ACCESS_KEY=YCO3enqnTvg84f48u958wm50BeiVkui8PmqJ7_DS node message.js",
