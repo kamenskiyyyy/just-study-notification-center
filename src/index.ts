@@ -9,6 +9,8 @@ module.exports.handler = async function (event: Event) {
     for (const message of messages) {
         const info = JSON.parse(message.details.message.body) as SendMessageProps;
 
+        console.info(info)
+
         const renderHTML = getHTML(info.template)
 
         await mailer.sendMail({
