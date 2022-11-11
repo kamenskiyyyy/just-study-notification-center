@@ -2,9 +2,11 @@ import {StringValue} from "aws-sdk/clients/elbv2";
 
 export interface SendMessageProps {
     email: string[] | string;
-    body: JSON;
+    body: string;
     title: string;
     type: 'email';
+    template: "base" | "lesson"
+    link: string
 }
 
 export interface Event {
