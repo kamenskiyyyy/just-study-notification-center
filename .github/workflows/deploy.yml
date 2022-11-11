@@ -43,4 +43,4 @@ jobs:
           exclude: |
             **/*.ts
           tags: |
-            ${{ GITHUB_SHA::6 }}
+            ${{ github.sha }}
