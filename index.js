@@ -1,7 +1,7 @@
 exports.handler = async function (event, context) {
 
     event.messages.map(({details}) => {
-        console.log(details)
+        console.log(JSON.parse(details.body) )
     })
 
     return {
