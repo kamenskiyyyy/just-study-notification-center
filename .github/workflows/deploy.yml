@@ -5,7 +5,7 @@ on:
     branches: [ "master" ]
 
 jobs:
-  deploy-docker:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -20,13 +20,12 @@ jobs:
           function-name: notification-center
           runtime: nodejs16
           memory: 256Mb
-          entrypoint: index.handler
+          entrypoint: dist/index.handler
           environment: |
             DEBUG=True
             FOO=bar
           include: |
-            index.js
+            ./dist
             package.json
           exclude: |
             **/*.ts
-          tags: 1.0.0

@@ -3,10 +3,22 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "AWS_ACCESS_KEY_ID=YCAJEtgELMn1y8UxCmk_d03Ou AWS_SECRET_ACCESS_KEY=YCO3enqnTvg84f48u958wm50BeiVkui8PmqJ7_DS node message.js",
+    "build": "npx tsc -b ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kamenskiyyyy/just-study-notification-center.git"
+  },
+  "dependencies": {
+    "aws-sdk": "2.1252.0"
+  },
+  "devDependencies": {
+    "@semantic-release/commit-analyzer": "9.0.2",
+    "@semantic-release/git": "10.0.1",
+    "@semantic-release/release-notes-generator": "10.0.3",
+    "semantic-release": "19.0.5",
+    "@types/node": "18.11.9",
+    "typescript": "4.8.4"
   }
 }

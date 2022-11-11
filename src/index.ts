@@ -1,7 +1,9 @@
-exports.handler = async function (event, context) {
+import {Event} from "./types";
 
-    event.messages.map(({details}) => {
-        console.log(JSON.parse(details.message.body) )
+module.exports.handler = async function (event: Event, context) {
+
+    event.messages.forEach((message) => {
+        console.log(JSON.parse(message.details.message.body) )
     })
 
     return {
