@@ -32,6 +32,7 @@ jobs:
           memory: 256Mb
           execution-timeout: 20
           entrypoint: dist/index.handler
+          service-account: aje38cdteqcfo55pe02h
           environment: |
             MAIL_HOST=${{ secrets.MAIL_HOST }}
             MAIL_PORT=${{ secrets.MAIL_PORT }}
