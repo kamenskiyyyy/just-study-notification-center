@@ -20,7 +20,7 @@ jobs:
           function-name: notification-center
           runtime: nodejs16
           memory: 256Mb
-          entrypoint: index.js
+          entrypoint: index.handler
           environment: |
             DEBUG=True
             FOO=bar
