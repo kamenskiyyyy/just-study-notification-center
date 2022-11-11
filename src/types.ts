@@ -1,7 +1,7 @@
 import {StringValue} from "aws-sdk/clients/elbv2";
 
 export interface SendMessageProps {
-    email: string[];
+    email: string[] | string;
     body: JSON;
     title: string;
     type: 'email';
