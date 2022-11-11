@@ -1,5 +1,8 @@
 exports.handler = async function (event, context) {
-    console.log("event and context", event, context)
+
+    event.messages.map(({details}) => {
+        console.log(details)
+    })
 
     return {
         statusCode: 200,
