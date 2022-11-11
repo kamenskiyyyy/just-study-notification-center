@@ -3,7 +3,6 @@
   "version": "1.4.0",
   "main": "index.js",
   "scripts": {
-    "test": "node message.js",
     "build": "npx tsc -b ."
   },
   "repository": {
@@ -11,7 +10,6 @@
     "url": "git+https://github.com/kamenskiyyyy/just-study-notification-center.git"
   },
   "dependencies": {
-    "aws-sdk": "2.1252.0",
     "nodemailer": "^6.8.0"
   },
   "devDependencies": {
