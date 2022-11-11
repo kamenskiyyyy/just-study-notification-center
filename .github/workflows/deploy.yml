@@ -1,0 +1,31 @@
+name: Deploy
+
+on:
+  push:
+    branches: [ "master" ]
+
+jobs:
+  deploy-docker:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Deploy Function
+        id: sls-func
+        uses: yc-actions/yc-sls-function@v1.0.1
+        with:
+          yc-sa-json-credentials: ${{secrets.YC_SA_JSON_CREDENTIALS}}
+          folder-id: b1g4s4k8tj83buc1hdoq
+          function-name: notification-center
+          runtime: nodejs16
+          memory: 256Mb
+          entrypoint: index.js
+          environment: |
+            DEBUG=True
+            FOO=bar
+          include: |
+            ./dist
+            package.json
+          exclude: |
+            **/*.ts
