@@ -1,10 +1,23 @@
-import {Event} from "./types";
+import {Event, SendMessageProps} from "./types";
+import {mailer} from "./lib/nodemailer";
+import {FROM} from "./config";
+import {baseTemplateEmail} from "./mailTemplate/base";
 
-module.exports.handler = async function (event: Event, context) {
+module.exports.handler = async function (event: Event) {
+    const messages = event.messages
 
-    event.messages.forEach((message) => {
-        console.log(JSON.parse(message.details.message.body) )
-    })
+    for (const message of messages) {
+        const info = message.details.message.body as unknown as SendMessageProps;
+
+        await mailer.sendMail({
+            to: info.email,
+            from: FROM,
+            subject: info.title,
+            html: baseTemplateEmail(
+                info.title,"Тестовое наполнение письма"
+            ),
+        });
+    }
 
     return {
         statusCode: 200,
