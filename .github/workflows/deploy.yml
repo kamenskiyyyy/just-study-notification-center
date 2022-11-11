@@ -29,3 +29,4 @@ jobs:
             package.json
           exclude: |
             **/*.ts
+          tag: 1.0.0
