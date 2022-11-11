@@ -25,7 +25,6 @@ jobs:
             DEBUG=True
             FOO=bar
           include: |
-            ./dist
             package.json
           exclude: |
             **/*.ts
