@@ -5,7 +5,7 @@ import { Callout } from '../Callout/Callout';
 import { Quote } from '../Quote/Quote';
 import { Carousel } from '../Carousel/Carousel';
 import { YouTubeVideo } from '../YouTubeVideo/YouTubeVideo';
-import styles from './CustomRenderer.module.css';
+import styles from 'styles/CustomRenderer.module.css';
 
 type CustomRendererProps = ComponentProps<typeof DocumentRenderer>;
 

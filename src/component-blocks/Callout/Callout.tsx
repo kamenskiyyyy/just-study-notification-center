@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react';
-import styles from './Callout.module.css';
+import styles from 'styles/Callout.module.css';
 
 type CalloutProps = {
   intent: 'info' | 'warning' | 'error' | 'success';
