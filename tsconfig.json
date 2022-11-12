@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src",
     "outDir": "./dist",
     "lib": ["dom", "dom.iterable", "esnext"],
     "target": "esnext",
@@ -13,18 +14,9 @@
     "esModuleInterop": true,
     "allowJs": false,
     "skipLibCheck": false,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "incremental": true
   },
-  "include": [
-    "src/**/*"
-  ],
+  "include": ["**/*.ts", "**/*.tsx"],
   "exclude": [
     "node_modules",
-    "**/*.spec.ts"
   ]
 }
