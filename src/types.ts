@@ -1,3 +1,5 @@
+import {DocumentRendererProps} from "@keystone-6/document-renderer/dist/declarations/src";
+
 export interface SendMessageProps {
     email: string[] | string;
     body?: string;
@@ -5,7 +7,7 @@ export interface SendMessageProps {
     type?: 'email';
     template?: 'base' | 'lesson';
     link?: string;
-    content: Element[]
+    content: DocumentRendererProps['document']
 }
 
 export interface Event {

@@ -13,7 +13,7 @@ module.exports.handler = async function (event: Event) {
         console.info(info)
 
         const renderHTML = getHTML(info.template)
-        const body = info.content ? renderContent(info.content) : info.body;
+        const body = info.content ? renderContent(info.content) : info.body || "";
 
         await mailer.sendMail({
             to: info.email,

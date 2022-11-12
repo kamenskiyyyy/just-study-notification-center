@@ -1,7 +1,7 @@
 export const templateLesson = (
   title: string,
   body: string,
-  linkCalendar: string
+  linkCalendar?: string
 ) => {
   return `
   <!doctype html>
