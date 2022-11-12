@@ -6,5 +6,5 @@ import React = require('react');
 
 export const renderContent = (content: SendMessageProps['content']) => {
     // @ts-ignore
-    return  ReactDOMServer.renderToString(<DocumentRenderer document={content.document} />);
+    return  ReactDOMServer.renderToString(<DocumentRenderer document={content} />);
 }
