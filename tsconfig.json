@@ -1,16 +1,12 @@
 {
   "compilerOptions": {
     "outDir": "./dist",
-    "lib": ["dom", "esnext"],
+    "lib": ["es5", "es6", "es2019"],
     "target": "es2019",
+    "module": "commonjs",
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "allowSyntheticDefaultImports": true,
-    "jsx": "react",
-    "types": ["node"],
-    "module": "commonjs",
-    "esModuleInterop": true
+    "experimentalDecorators": true
   },
   "include": [
     "src/**/*"
