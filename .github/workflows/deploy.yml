@@ -41,5 +41,6 @@ jobs:
           include: |
             ./dist
             package.json
+            package-lock.json
           exclude: |
             **/*.ts
