@@ -30,8 +30,8 @@ export const templateLesson = (
     table,
     td {
       border-collapse: collapse;
-      mso-table-lspace: 0pt;
-      mso-table-rspace: 0pt;
+      mso-table-lspace: 0;
+      mso-table-rspace: 0;
     }
 
     img {
@@ -101,18 +101,18 @@ export const templateLesson = (
 <body style='word-spacing:normal;background-color:#E3F2FD;'>
   <div style='background-color:#E3F2FD;'>
     <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style='margin:0px auto;max-width:600px;'>
+    <div style='margin:0 auto;max-width:600px;'>
       <table align='center' border='0' cellpadding='0' cellspacing='0' role='presentation' style='width:100%;'>
         <tbody>
           <tr>
-            <td style='direction:ltr;font-size:0px;padding:20px 0;text-align:center;'>
+            <td style='direction:ltr;font-size:0;padding:20px 0;text-align:center;'>
               <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
-              <div class='mj-column-per-100 mj-outlook-group-fix' style='font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;'>
+              <div class='mj-column-per-100 mj-outlook-group-fix' style='font-size:0;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;'>
                 <table border='0' cellpadding='0' cellspacing='0' role='presentation' style='vertical-align:top;' width='100%'>
                   <tbody>
                     <tr>
-                      <td align='center' style='font-size:0px;padding:10px 25px;word-break:break-word;'>
-                        <table border='0' cellpadding='0' cellspacing='0' role='presentation' style='border-collapse:collapse;border-spacing:0px;'>
+                      <td align='center' style='font-size:0;padding:10px 25px;word-break:break-word;'>
+                        <table border='0' cellpadding='0' cellspacing='0' role='presentation' style='border-collapse:collapse;border-spacing:0;'>
                           <tbody>
                             <tr>
                               <td style='width:150px;'>
@@ -133,23 +133,23 @@ export const templateLesson = (
       </table>
     </div>
     <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style='background:#ffffff;background-color:#ffffff;margin:0px auto;border-radius:15px;max-width:600px;'>
+    <div style='background:#ffffff;background-color:#ffffff;margin:0 auto;border-radius:15px;max-width:600px;'>
       <table align='center' border='0' cellpadding='0' cellspacing='0' role='presentation' style='background:#ffffff;background-color:#ffffff;width:100%;border-radius:15px;'>
         <tbody>
           <tr>
-            <td style='direction:ltr;font-size:0px;padding:20px 0;text-align:center;'>
+            <td style='direction:ltr;font-size:0;padding:20px 0;text-align:center;'>
               <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" width="600px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-              <div style='margin:0px auto;max-width:600px;'>
+              <div style='margin:0 auto;max-width:600px;'>
                 <table align='center' border='0' cellpadding='0' cellspacing='0' role='presentation' style='width:100%;'>
                   <tbody>
                     <tr>
-                      <td style='direction:ltr;font-size:0px;padding:0;text-align:center;'>
+                      <td style='direction:ltr;font-size:0;padding:0;text-align:center;'>
                         <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
-                        <div class='mj-column-per-100 mj-outlook-group-fix' style='font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;'>
+                        <div class='mj-column-per-100 mj-outlook-group-fix' style='font-size:0;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;'>
                           <table border='0' cellpadding='0' cellspacing='0' role='presentation' style='vertical-align:top;' width='100%'>
                             <tbody>
                               <tr>
-                                <td align='left' style='font-size:0px;padding:10px 25px;word-break:break-word;'>
+                                <td align='left' style='font-size:0;padding:10px 25px;word-break:break-word;'>
                                   <div style='font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:30px;font-weight:bold;line-height:150%;text-align:left;color:#555555;'>${title}</div>
                                 </td>
                               </tr>
@@ -163,27 +163,27 @@ export const templateLesson = (
                 </table>
               </div>
               <!--[if mso | IE]></td></tr></table></td></tr><tr><td class="" width="600px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-              <div style='background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;'>
+              <div style='background:#ffffff;background-color:#ffffff;margin:0 auto;max-width:600px;'>
                 <table align='center' border='0' cellpadding='0' cellspacing='0' role='presentation' style='background:#ffffff;background-color:#ffffff;width:100%;'>
                   <tbody>
                     <tr>
-                      <td style='direction:ltr;font-size:0px;padding:0;text-align:center;'>
+                      <td style='direction:ltr;font-size:0;padding:0;text-align:center;'>
                         <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
-                        <div class='mj-column-per-100 mj-outlook-group-fix' style='font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;'>
+                        <div class='mj-column-per-100 mj-outlook-group-fix' style='font-size:0;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;'>
                           <table border='0' cellpadding='0' cellspacing='0' role='presentation' style='background-color:#ccf1db;vertical-align:top;' width='100%'>
                             <tbody>
                               <tr>
-                                <td align='center' style='font-size:0px;padding:20px 20px 0;word-break:break-word;'>
+                                <td align='center' style='font-size:0;padding:20px 20px 0;word-break:break-word;'>
                                   <div style='font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:1;text-align:center;color:#555555;'>Рекомендуем добавить напоминие о всех занятиях в календарь</div>
                                 </td>
                               </tr>
                               <tr>
-                                <td align='center' vertical-align='middle' style='font-size:0px;padding:15px;word-break:break-word;'>
+                                <td align='center' vertical-align='middle' style='font-size:0;padding:15px;word-break:break-word;'>
                                   <table border='0' cellpadding='0' cellspacing='0' role='presentation' style='border-collapse:separate;line-height:100%;'>
                                     <tbody>
                                       <tr>
                                         <td align='center' bgcolor='#0c51c4' role='presentation' style='border:none;border-radius:3px;cursor:auto;mso-padding-alt:10px 25px;background:#0c51c4;' valign='middle'>
-                                          <a href='webcal://${linkCalendar}' style='display:inline-block;background:#0c51c4;color:#ffffff;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:uppercase;padding:10px 25px;mso-padding-alt:0px;border-radius:3px;' target='_blank'> Добавить в календарь </a>
+                                          <a href='webcal://${linkCalendar}' style='display:inline-block;background:#0c51c4;color:#ffffff;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:uppercase;padding:10px 25px;mso-padding-alt:0;border-radius:3px;' target='_blank'> Добавить в календарь </a>
                                         </td>
                                       </tr>
                                     </tbody>
@@ -200,17 +200,17 @@ export const templateLesson = (
                 </table>
               </div>
               <!--[if mso | IE]></td></tr></table></td></tr><tr><td class="" width="600px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-              <div style='background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;'>
+              <div style='background:#ffffff;background-color:#ffffff;margin:0 auto;max-width:600px;'>
                 <table align='center' border='0' cellpadding='0' cellspacing='0' role='presentation' style='background:#ffffff;background-color:#ffffff;width:100%;'>
                   <tbody>
                     <tr>
-                      <td style='direction:ltr;font-size:0px;padding:15px 0 0;text-align:center;'>
+                      <td style='direction:ltr;font-size:0;padding:15px 0 0;text-align:center;'>
                         <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
-                        <div class='mj-column-per-100 mj-outlook-group-fix' style='font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;'>
+                        <div class='mj-column-per-100 mj-outlook-group-fix' style='font-size:0;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;'>
                           <table border='0' cellpadding='0' cellspacing='0' role='presentation' style='vertical-align:top;' width='100%'>
                             <tbody>
                               <tr>
-                                <td align='left' style='font-size:0px;padding:10px 25px;word-break:break-word;'>
+                                <td align='left' style='font-size:0;padding:10px 25px;word-break:break-word;'>
                                   <div style='font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:150%;text-align:left;color:#555555;'>${body}</div>
                                 </td>
                               </tr>
@@ -230,27 +230,27 @@ export const templateLesson = (
       </table>
     </div>
     <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style='margin:0px auto;max-width:600px;'>
+    <div style='margin:0 auto;max-width:600px;'>
       <table align='center' border='0' cellpadding='0' cellspacing='0' role='presentation' style='width:100%;'>
         <tbody>
           <tr>
-            <td style='direction:ltr;font-size:0px;padding:20px 0;text-align:center;'>
+            <td style='direction:ltr;font-size:0;padding:20px 0;text-align:center;'>
               <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
-              <div class='mj-column-per-100 mj-outlook-group-fix' style='font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;'>
+              <div class='mj-column-per-100 mj-outlook-group-fix' style='font-size:0;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;'>
                 <table border='0' cellpadding='0' cellspacing='0' role='presentation' style='vertical-align:top;' width='100%'>
                   <tbody>
                     <tr>
-                      <td align='center' style='font-size:0px;padding:10px 25px;word-break:break-word;'>
+                      <td align='center' style='font-size:0;padding:10px 25px;word-break:break-word;'>
                         <div style='font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:100px;line-height:1;text-align:center;color:#555555;'>😉</div>
                       </td>
                     </tr>
                     <tr>
-                      <td align='center' style='font-size:0px;padding:10px 25px;word-break:break-word;'>
+                      <td align='center' style='font-size:0;padding:10px 25px;word-break:break-word;'>
                         <div style='font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:30px;font-weight:bold;line-height:1;text-align:center;color:#757575;'>See you soon</div>
                       </td>
                     </tr>
                     <tr>
-                      <td align='center' style='font-size:0px;padding:10px 25px;padding-top:0;word-break:break-word;'>
+                      <td align='center' style='font-size:0;padding:10px 25px;padding-top:0;word-break:break-word;'>
                         <div style='font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:20px;line-height:1;text-align:center;color:#757575;'>Just Study Team</div>
                       </td>
                     </tr>
@@ -264,13 +264,13 @@ export const templateLesson = (
       </table>
     </div>
     <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style='margin:0px auto;max-width:600px;'>
+    <div style='margin:0 auto;max-width:600px;'>
       <table align='center' border='0' cellpadding='0' cellspacing='0' role='presentation' style='width:100%;'>
         <tbody>
           <tr>
-            <td style='direction:ltr;font-size:0px;padding:20px 0;text-align:center;'>
+            <td style='direction:ltr;font-size:0;padding:20px 0;text-align:center;'>
               <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
-              <div class='mj-column-per-100 mj-outlook-group-fix' style='font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;'>
+              <div class='mj-column-per-100 mj-outlook-group-fix' style='font-size:0;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;'>
                 <table border='0' cellpadding='0' cellspacing='0' role='presentation' width='100%'>
                   <tbody>
                     <tr>
@@ -278,22 +278,22 @@ export const templateLesson = (
                         <table border='0' cellpadding='0' cellspacing='0' role='presentation' style='' width='100%'>
                           <tbody>
                             <tr>
-                              <td align='center' style='font-size:0px;padding:10px 25px;word-break:break-word;'>
+                              <td align='center' style='font-size:0;padding:10px 25px;word-break:break-word;'>
                                 <div style='font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:20px;line-height:1;text-align:center;color:#757575;'>Есть вопросы?</div>
                               </td>
                             </tr>
                             <tr>
-                              <td align='center' style='font-size:0px;padding:10px 25px;word-break:break-word;'>
+                              <td align='center' style='font-size:0;padding:10px 25px;word-break:break-word;'>
                                 <div style='font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:1;text-align:center;color:#757575;'>Пишите нам в чате личного кабинета на портале или в Telegram</div>
                               </td>
                             </tr>
                             <tr>
-                              <td align='center' vertical-align='middle' style='font-size:0px;padding:10px 25px;word-break:break-word;'>
+                              <td align='center' vertical-align='middle' style='font-size:0;padding:10px 25px;word-break:break-word;'>
                                 <table border='0' cellpadding='0' cellspacing='0' role='presentation' style='border-collapse:separate;line-height:100%;'>
                                   <tbody>
                                     <tr>
                                       <td align='center' bgcolor='#0c51c4' role='presentation' style='border:none;border-radius:3px;cursor:auto;mso-padding-alt:10px 25px;background:#0c51c4;' valign='middle'>
-                                        <a href='https://t.me/juststudy_help_bot' style='display:inline-block;background:#0c51c4;color:#ffffff;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:3px;' target='_blank'> Написать в поддержку </a>
+                                        <a href='https://t.me/juststudy_help_bot' style='display:inline-block;background:#0c51c4;color:#ffffff;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0;border-radius:3px;' target='_blank'> Написать в поддержку </a>
                                       </td>
                                     </tr>
                                   </tbody>

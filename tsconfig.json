@@ -9,7 +9,9 @@
     "types": ["node"],
     "module": "commonjs",
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "include": [
+    "src/**/*"
+  ],
   "exclude": [
     "node_modules",
   ]
