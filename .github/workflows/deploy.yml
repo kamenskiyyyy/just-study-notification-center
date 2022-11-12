@@ -43,5 +43,3 @@ jobs:
             package.json
           exclude: |
             **/*.ts
-          tags: |
-            ${{ github.sha }}
