@@ -70,7 +70,6 @@ const customComponentRenderers: CustomRendererProps['componentBlocks'] = {
 export function CustomRenderer({ document }: CustomRendererProps) {
   return (
     <DocumentRenderer
-      renderers={defaultElementRenderers}
       componentBlocks={customComponentRenderers}
       document={document}
     />
