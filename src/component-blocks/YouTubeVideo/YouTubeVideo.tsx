@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from '../../../styles/YouTubeVideo.module.css';
 
 type YouTubeVideoProps = {
   url: string;
@@ -10,8 +9,17 @@ export function YouTubeVideo({ url, altText = 'Embedded YouTube video' }: YouTub
   const embedId = getYouTubeEmbedId(url);
 
   return (
-    <div className={styles.youtubeVideo}>
-      <div className={styles.iframePosition}>
+    <div style={{
+      display: "grid",
+      gridTemplateColumns: "minmax(auto, 960px)",
+      alignItems: "center",
+      justifyContent: "center"
+    }}>
+      <div  style={{
+        overflow: "hidden",
+        paddingBottom: "56.25%",
+        position: "relative"
+      }}>
         <iframe
           width="100%"
           height="480"

@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from '../../../styles/Hero.module.css';
 
 type HeroProps = {
   imageSrc: string;
@@ -15,8 +14,20 @@ type HeroProps = {
 
 export function Hero({ imageSrc, caption }: HeroProps) {
   return (
-    <div className={styles.hero}>
-      <div className={styles.backgroundImage} style={{ backgroundImage: `url(${imageSrc})` }} />
+    <div style={{
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        flexDirection: "column"
+    }}>
+      <div style={{
+          backgroundColor: "white",
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+          minHeight: 400,
+          width: "100%",
+          backgroundImage: `url(${imageSrc})`,
+      }} />
       {caption.discriminant ? <div style={{ textAlign: 'center' }}>{caption.value}</div> : null}
     </div>
   );

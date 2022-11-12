@@ -1,6 +1,4 @@
 import React, { ReactNode } from 'react';
-import styles from '../../../styles/Callout.module.css';
-
 
 type CalloutProps = {
   intent: 'info' | 'warning' | 'error' | 'success';
@@ -40,13 +38,21 @@ export function Callout({ intent, content }: CalloutProps) {
 
   return (
     <div
-      className={styles.callout}
       style={{
         background: backgroundColor,
         borderColor,
+        padding: "0 8px",
+        borderLeft: "4px solid",
+        borderRadius: 4,
+        margin: "8px 0",
+        display: "grid",
+        gridTemplateColumns: "48px 1fr"
       }}
     >
-      <div className={`${styles.icon} ${styles[intent]}`} style={{ color: textColor }} />
+      <div style={{ color: textColor,
+        display: "flex",
+        justifyContent: "center",
+        paddingTop: 16,  }} />
       <div style={{ flex: 1 }}>{content}</div>
     </div>
   );
