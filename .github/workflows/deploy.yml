@@ -23,7 +23,7 @@ jobs:
 
       - name: Deploy Function
         id: sls-func
-        uses: yc-actions/yc-sls-function@v2.3.0
+        uses: yc-actions/yc-sls-function@v2.4.0
         with:
           yc-sa-json-credentials: ${{secrets.YC_SA_JSON_CREDENTIALS}}
           folder-id: b1g4s4k8tj83buc1hdoq
